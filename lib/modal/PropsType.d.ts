@@ -16,7 +16,7 @@ export interface ModalPropsType<T> {
 }
 export interface Action<T> {
     text: string;
-    onPress?: () => void | Promise<any>;
+    onPress?: (...args:any[]) => void | Promise<any>;
     style?: T | string;
 }
 export declare type Callback = (valueOrLogin: string, password?: string) => void;
