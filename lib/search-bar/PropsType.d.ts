@@ -9,6 +9,7 @@ export interface SearchBarPropsType {
     onBlur?: () => void;
     onCancel?: (value: string) => void;
     showCancelButton?: boolean;
+    noCancelButton?: boolean;
     cancelText?: string;
     disabled?: boolean;
     autoFocus?: boolean;

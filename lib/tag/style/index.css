@@ -48,8 +48,8 @@
 }
 .am-tag-active {
   background-color: #fff;
-  color: #108ee9;
-  border: 1PX solid #108ee9;
+  color: #fdbd39;
+  border: 1PX solid #fdbd39;
   border-radius: 3px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
@@ -64,7 +64,7 @@
     top: 0;
     width: 200%;
     height: 200%;
-    border: 1PX solid #108ee9;
+    border: 1PX solid #fdbd39;
     border-radius: 6px;
     -webkit-transform-origin: 0 0;
         -ms-transform-origin: 0 0;

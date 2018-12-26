@@ -347,7 +347,7 @@
   border-radius: 5px;
   color: #fff;
   font-size: 18px;
-  background: #108ee9;
+  background: #fdbd39;
 }
 .am-calendar .confirm-panel .button-disable {
   color: #bbb;
@@ -479,7 +479,7 @@
 }
 .am-calendar .single-month .row .cell .date-wrapper .date-selected {
   border: none;
-  background: #108ee9;
+  background: #fdbd39;
   color: #fff;
   font-size: 17px;
 }
@@ -507,7 +507,7 @@
   text-align: center;
 }
 .am-calendar .single-month .row .cell .date-selected {
-  color: #108ee9;
+  color: #fdbd39;
 }
 .am-calendar .single-month .row + .row {
   margin-top: 6px;
@@ -542,6 +542,6 @@
 }
 .am-calendar .shortcut-panel .item {
   display: inline-block;
-  color: #108ee9;
+  color: #fdbd39;
   font-size: 16px;
 }

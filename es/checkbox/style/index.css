@@ -47,8 +47,8 @@
           appearance: none;
 }
 .am-checkbox.am-checkbox-checked .am-checkbox-inner {
-  border-color: #108ee9;
-  background: #108ee9;
+  border-color: #fdbd39;
+  background: #fdbd39;
 }
 .am-checkbox.am-checkbox-checked .am-checkbox-inner:after {
   display: block;

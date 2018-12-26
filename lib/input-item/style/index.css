@@ -32,7 +32,7 @@
   right: 0;
   top: 10%;
   height: 80%;
-  border-right: 1.5px solid #108ee9;
+  border-right: 1.5px solid #fdbd39;
   -webkit-animation: keyboard-cursor infinite 1s step-start;
           animation: keyboard-cursor infinite 1s step-start;
 }
@@ -200,7 +200,7 @@
 .am-number-keyboard-wrapper table tr .am-number-keyboard-item.keyboard-confirm {
   color: #fff;
   font-size: 21px;
-  background-color: #108ee9;
+  background-color: #fdbd39;
   border-bottom: 1PX solid #ddd;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
@@ -393,7 +393,7 @@
   background-position: 2px 2px;
 }
 .am-list-item .am-input-clear-active {
-  background-color: #108ee9;
+  background-color: #fdbd39;
 }
 .am-list-item.am-input-focus .am-input-clear {
   display: block;

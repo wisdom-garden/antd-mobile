@@ -184,6 +184,7 @@ var SearchBar = function (_React$Component) {
             var _props = this.props,
                 prefixCls = _props.prefixCls,
                 showCancelButton = _props.showCancelButton,
+                noCancelButton = _props.noCancelButton,
                 disabled = _props.disabled,
                 placeholder = _props.placeholder,
                 className = _props.className,
@@ -241,7 +242,7 @@ var SearchBar = function (_React$Component) {
                         React.createElement('a', { onClick: this.onClear, className: clearCls })
                     )
                 ),
-                React.createElement(
+                noCancelButton ? null : React.createElement(
                     'div',
                     { className: cancelCls, onClick: this.onCancel, ref: function ref(el) {
                             return _this2.rightBtnRef = el;

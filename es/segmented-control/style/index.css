@@ -28,20 +28,20 @@
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #108ee9;
+  color: #fdbd39;
   font-size: 14px;
   line-height: 1;
   -webkit-transition: background .2s;
   transition: background .2s;
   position: relative;
-  border: 1PX solid #108ee9;
+  border: 1PX solid #fdbd39;
   width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-left-width: 0;
 }
 .am-segment-item-tintcolor {
-  border-color: #108ee9;
+  border-color: #fdbd39;
 }
 .am-segment-item:first-child {
   border-left-width: 1PX;
@@ -51,7 +51,7 @@
   border-radius: 0 5px 5px 0;
 }
 .am-segment-item-selected {
-  background: #108ee9;
+  background: #fdbd39;
   color: #fff;
 }
 .am-segment-item-active .am-segment-item-inner {
@@ -63,5 +63,5 @@
   opacity: 0.1;
   -webkit-transition: background .2s;
   transition: background .2s;
-  background-color: #108ee9;
+  background-color: #fdbd39;
 }
