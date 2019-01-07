@@ -185,6 +185,7 @@ var SearchBar = function (_React$Component) {
                 prefixCls = _props.prefixCls,
                 showCancelButton = _props.showCancelButton,
                 noCancelButton = _props.noCancelButton,
+                hideClearButton = _props.hideClearButton,
                 disabled = _props.disabled,
                 placeholder = _props.placeholder,
                 className = _props.className,
@@ -236,7 +237,7 @@ var SearchBar = function (_React$Component) {
                     React.createElement('input', _extends({ type: 'search', className: prefixCls + '-value', value: value, disabled: disabled, placeholder: placeholder, onChange: this.onChange, onFocus: this.onFocus, onBlur: this.onBlur, ref: function ref(el) {
                             return _this2.inputRef = el;
                         }, maxLength: maxLength }, getDataAttr(this.props))),
-                    React.createElement(
+                    hideClearButton ? null : React.createElement(
                         TouchFeedback,
                         { activeClassName: prefixCls + '-clear-active' },
                         React.createElement('a', { onClick: this.onClear, className: clearCls })
